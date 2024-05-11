@@ -5,12 +5,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import "./index.css";
 import { Login } from "./components/Login.jsx";
+import { PageNotFound } from "./components/PageNotFound.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>404 Page Not Found</div>,
+    errorElement: <PageNotFound />,
   },
   {
     path: "/login",
