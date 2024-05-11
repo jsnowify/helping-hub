@@ -39,7 +39,7 @@ npm run dev
 
 5. Open your web browser and visit http://localhost:5173/ to view the application.
 
-## Contributions
+## Contributing
 
 Contributions to Helping Hubs are welcome and appreciated! If you'd like to contribute, please follow these guidelines:
 
