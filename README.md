@@ -17,28 +17,30 @@ To install and run Helping Hubs locally, follow these steps:
 
 1. Clone the repository:
 
-````bash
+```bash
 git clone https://github.com/jsnowify/helping-hub.git
+```
 
 2. Navigate to the project directory:
 
 ```bash
 cd helping-hubs
+```
 
 3. Install dependencies:
 
 ```bash
 npm install
+```
 
 4. Start the development server:
 
 ```bash
 npm run dev
+```
 
 5. Open your web browser and visit http://localhost:5173/ to view the application.
 
-
-# Contributing
 Contributions to Helping Hubs are welcome and appreciated! If you'd like to contribute, please follow these guidelines:
 
 1. Fork the repository.
@@ -51,6 +53,7 @@ For major changes, please open an issue first to discuss potential updates or im
 
 License
 This project is licensed under the MIT License.
+
 ```css
 Feel free to further customize this template with additional details or sections specific to your project.
-````
+```
