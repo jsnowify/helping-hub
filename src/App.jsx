@@ -1,24 +1,13 @@
-import { useState } from "react";
-
 import { Link } from "react-router-dom";
 import "./index.css";
+import Welcome from "./components/Welcome";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="container">
-        <p> Has been clicked {count} times</p>
-
-        <button onClick={() => setCount(count < 10 ? count + 1 : count)}>
-          Increment
-        </button>
-        <br />
-        <button onClick={() => setCount(count ? count - 1 : 0)}>
-          Decrement
-        </button>
-        <Link to="/login">
-          <button>Hi</button>
+      <div className="flex flex-col justify-center content-center place-content-center">
+        <Welcome />
+        <Link to="/login" className="justify-center ">
+          <button>Explore</button>
         </Link>
       </div>
     </>
