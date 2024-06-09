@@ -5,7 +5,7 @@ const LoginButton = () => {
     <div className="flex justify-center">
       <Link to="Forms.jsx">
         <button className="bg-black w-40 h-10 rounded-full text-white hover:shadow-2xl">
-          Test
+          Login
         </button>
       </Link>
     </div>
