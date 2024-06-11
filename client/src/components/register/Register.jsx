@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { RegisterButton } from "./RegisterButton";
+
 import { RegisterForm } from "./RegisterForm";
 
 export const Register = () => {
@@ -8,7 +8,7 @@ export const Register = () => {
       <div className="flex h-dvh flex-col justify-center gap-10">
         <h1 className="flex justify-center font-bold text-6xl">Register</h1>
         <RegisterForm />
-        <RegisterButton />
+
         <p className="text-center mt-4">
           Already have an account?{" "}
           <Link
